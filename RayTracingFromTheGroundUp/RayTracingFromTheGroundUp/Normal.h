@@ -1,6 +1,8 @@
 #pragma once
 
-class Normal
+#include "Vector3D.h"
+
+class Normal:public Vector3D
 {
 
 };

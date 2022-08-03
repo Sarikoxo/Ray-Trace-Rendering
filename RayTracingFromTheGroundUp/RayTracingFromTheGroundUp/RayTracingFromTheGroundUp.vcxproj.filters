@@ -16,23 +16,17 @@
     <Filter Include="头文件\Geometric">
       <UniqueIdentifier>{6a4841df-99d6-4abe-a73d-0a783834e379}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Utilties">
+      <UniqueIdentifier>{2eb93e72-956b-40df-a112-6e94f0c3eff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utilties">
+      <UniqueIdentifier>{c5a8e4a7-0ff4-4862-81df-333390344ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Main">
+      <UniqueIdentifier>{25120a2e-f969-4908-9f45-6fb4184714b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Point3D.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Vector3D.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Ray.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ShadeRec.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Normal.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="World.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -42,5 +36,28 @@
     <ClInclude Include="Plane.h">
       <Filter>头文件\Geometric</Filter>
     </ClInclude>
+    <ClInclude Include="Normal.h">
+      <Filter>头文件\Utilties</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>头文件\Utilties</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>头文件\Utilties</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadeRec.h">
+      <Filter>头文件\Utilties</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>头文件\Utilties</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>源文件\Utilties</Filter>
+    </ClCompile>
+    <ClCompile Include="进度.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
